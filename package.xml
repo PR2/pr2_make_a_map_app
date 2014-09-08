@@ -18,7 +18,6 @@
   <build_depend>pr2_position_scripts</build_depend>
   <build_depend>gmapping</build_depend>
   <build_depend>tf</build_depend>
-  <build_depend>mongodb</build_depend>
   <build_depend>topic_tools</build_depend>
   <build_depend>map_store</build_depend>
 
@@ -26,7 +25,6 @@
   <run_depend>pr2_position_scripts</run_depend>
   <run_depend>gmapping</run_depend>
   <run_depend>tf</run_depend>
-  <run_depend>mongodb</run_depend>
   <run_depend>topic_tools</run_depend>
   <run_depend>map_store</run_depend>
 

@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(pr2_make_a_map_app)
 # Load catkin and all dependencies required for this package
 # TODO: remove all from COMPONENTS that are not catkin packages.
-find_package(catkin REQUIRED COMPONENTS pr2_position_scripts gmapping tf mongodb topic_tools map_store)
+find_package(catkin REQUIRED COMPONENTS pr2_position_scripts gmapping tf topic_tools map_store)
 
 # include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
 # CATKIN_MIGRATION: removed during catkin migration
@@ -38,7 +38,7 @@ find_package(catkin REQUIRED COMPONENTS pr2_position_scripts gmapping tf mongodb
 # catkin_package parameters: http://ros.org/doc/groovy/api/catkin/html/dev_guide/generated_cmake_api.html#catkin-package
 # TODO: fill in what other packages will need to use this package
 catkin_package(
-    DEPENDS pr2_position_scripts gmapping tf mongodb topic_tools map_store
+    DEPENDS pr2_position_scripts gmapping tf  topic_tools map_store
     CATKIN_DEPENDS # TODO
     INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
