@@ -2,6 +2,9 @@
 Changelog for package pr2_make_a_map_app
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.0.3 (2014-09-17)
 ------------------
 * Changed topics to topic; bug fix
